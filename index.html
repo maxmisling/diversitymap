@@ -104,8 +104,8 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1sL-BcJdM0Bf-j0iv_Y8ikXkfrw4fw2PiD_LvYGudSsU/edit?usp=sharing',
+        //YOUR TURN: Replace with csv export link --------HERE!!!!
+        url: 'https://docs.google.com/spreadsheets/d/1vaeM6C77W1bOzTPQrBn7sU16atD2r_jG_FOTugTmTY4/gviz/tq?tqx=out:csv&sheet=ExampleMaps',//'https://docs.google.com/spreadsheets/d/1sL-BcJdM0Bf-j0iv_Y8ikXkfrw4fw2PiD_LvYGudSsU/edit?usp=sharing',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
