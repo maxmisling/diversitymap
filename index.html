@@ -152,7 +152,7 @@
               document.getElementById("link").setAttribute("href",scrt_var);
               </script>
               <a id="link">this is a link</a>
-              var description = `<h3>` + e.features[0].properties.Name + `</h3>` + `<h4>` + `<b>` + `Address: ` + `</b>` + e.features[0].properties.Address + `</h4>` + `<h4>` + `<b>` + `Category: ` + `</b>` + e.features[0].properties.Tags + `</h4>` + `<h4>`  + `<b>` + `Website: ` + url +`</b>` + e.features[0].properties.Website +  `</h4>` + `<h4>`  + `<b>` + `Further Information: ` + `</b>`+ `</h4>` + `<a href = "string(site)"> Link </a>`;
+              var description = `<h3>` + e.features[0].properties.Name + `</h3>` + `<h4>` + `<b>` + `Address: ` + `</b>` + e.features[0].properties.Address + `</h4>` + `<h4>` + `<b>` + `Category: ` + `</b>` + e.features[0].properties.Tags + `</h4>` + `<h4>`  + `<b>` + `Website: ` + url +`</b>` + e.features[0].properties.Website +  `</h4>` + `<h4>`  + `<b>` + `Further Information: ` + `</b>`+ `</h4>` + `<a id="link">this is a link</a><a href = "string"> Link </a>`;
 
               // Ensure that if the map is zoomed out such that multiple
               // copies of the feature are visible, the popup appears
