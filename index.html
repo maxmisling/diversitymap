@@ -152,7 +152,7 @@
               // For example: e.features[0].properties.Name is retrieving information from the field Name in the original CSV.
               var link = e.features[0].properties.Phone;
               var val2 = e.features[0].properties.Website;
-              var description = `<h3>` + e.features[0].properties.Name + `</h3>` + `<h4>` + `<b>` + `Address: ` + `</b>` + e.features[0].properties.Address + `</h4>` + `<h4>` + `<b>` + `Category: ` + `</b>` + e.features[0].properties.Tags + `</h4>` + `<h4>`  + `<b>` + `Website: ` + link + `space` + val2 + val +`</b>` + e.features[0].properties.Website +  `</h4>` + `<h4>`  + `<b>` + `Further Information: ` + `</b>`+ `</h4>` + `<a href="2.html" onclick="location.href=this.href+'?key='+scrt_var;return false;">Link</a><a href = "string"> Link + </a><a href="https://www.google.com/"onclick="location.href=this.href+'?xyz='+val2;return false;">TESTGoogle10</a>`;
+              var description = `<h3>` + e.features[0].properties.Name + `</h3>` + `<h4>` + `<b>` + `Address: ` + `</b>` + e.features[0].properties.Address + `</h4>` + `<h4>` + `<b>` + `Category: ` + `</b>` + e.features[0].properties.Tags + `</h4>` + `<h4>`  + `<b>` + `Website: ` + link + `space` + val2 + val +`</b>` + e.features[0].properties.Website +  `</h4>` + `<h4>`  + `<b>` + `Further Information: ` + `</b>`+ `</h4>` + `<a href="2.html" onclick="location.href=this.href+'?key='+scrt_var;return false;">Link</a><a href = "string"> Link + </a><a href="https://www.google.com/"onclick="location.href=val2;return false;">TESTGoogle11</a>`;
 
               // Ensure that if the map is zoomed out such that multiple
               // copies of the feature are visible, the popup appears
